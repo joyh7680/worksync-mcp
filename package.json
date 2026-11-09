@@ -1,0 +1,38 @@
+{
+  "name": "worksync-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI 에이전트가 분석한 업무를 승인 후 기존 Notion 하위 항목으로 등록하는 MCP",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "bin": {
+    "worksync": "dist/cli.js",
+    "worksync-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "format": "prettier --write src tests scripts examples docs README.md package.json tsconfig*.json .prettierrc.json",
+    "format:check": "prettier --check src tests scripts examples docs README.md package.json tsconfig*.json .prettierrc.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "start": "node dist/index.js",
+    "setup": "node dist/cli.js init",
+    "doctor": "node dist/cli.js doctor",
+    "demo": "node scripts/smoke.mjs",
+    "test:integration": "node dist/cli.js integration"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.4.0",
+    "@notionhq/client": "5.31.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "2.4.0",
+    "@types/node": "^26.0.0",
+    "prettier": "3.9.10",
+    "typescript": "^6.0.0",
+    "vitest": "5.1.0"
+  }
+}

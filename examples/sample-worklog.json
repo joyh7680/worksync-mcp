@@ -1,0 +1,23 @@
+{
+  "tasks": [
+    {
+      "title": "학습 화면 UI 개선",
+      "description": "사용자가 확인한 학습 화면 안내 문구와 화면 전환을 개선했습니다.",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-04",
+      "dateBasis": "user_confirmed",
+      "status": "완료",
+      "statusConfirmed": true,
+      "statusEvidence": "사용자가 완료 사실을 확인함 (데모 예제)",
+      "evidence": [
+        {
+          "kind": "manual",
+          "sourceId": "demo",
+          "id": "demo-work-001",
+          "note": "사용자 제공 작업 메모 (데모 예제)"
+        }
+      ],
+      "parentId": "33333333-3333-4333-8333-333333333333"
+    }
+  ]
+}

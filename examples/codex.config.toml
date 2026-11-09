@@ -1,0 +1,7 @@
+# 기존 ~/.codex/config.toml에 아래 섹션만 추가. 실제 토큰을 이 파일에 넣지 마세요.
+[mcp_servers.worksync]
+command = "node"
+args = ["C:/workspace/worksync-mcp/dist/index.js"]
+
+[mcp_servers.worksync.env]
+WORKSYNC_SETTINGS = "C:/workspace/worksync-mcp/settings.json"

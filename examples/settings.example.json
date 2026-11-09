@@ -1,0 +1,35 @@
+{
+  "user": {
+    "id": "replace-with-local-user-id",
+    "name": "내 이름",
+    "notionUserId": "00000000-0000-4000-8000-000000000001"
+  },
+  "team": "04. 프론트",
+  "timezone": "Asia/Seoul",
+  "git": {
+    "defaultRepository": "C:/projects/my-project",
+    "allowedRepositories": ["C:/projects/my-project"],
+    "defaultBranch": "main",
+    "author": "me@company.example"
+  },
+  "notion": {
+    "databaseId": "2b53188c-425b-82c3-9b6a-817ad6c672ae",
+    "dataSourceId": "93f3188c-425b-8263-bbea-073f6063b4a1",
+    "defaultParentId": "2a63188c-425b-828a-b8b2-8194c885c43f",
+    "allowedParentIds": ["2a63188c-425b-828a-b8b2-8194c885c43f"],
+    "stage": "5. 세부 할 일",
+    "properties": {
+      "title": "업무명",
+      "description": "설명",
+      "start": "시작일",
+      "end": "종료일",
+      "status": "상태",
+      "team": "팀",
+      "participants": "참여자",
+      "stage": "단계",
+      "progress": "진행률 (%)"
+    },
+    "subitems": null
+  },
+  "stateDirectory": ".worksync"
+}

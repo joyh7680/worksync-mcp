@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "worksync": {
+      "command": "node",
+      "args": ["C:/workspace/worksync-mcp/dist/index.js"],
+      "env": { "WORKSYNC_SETTINGS": "C:/workspace/worksync-mcp/settings.json" }
+    }
+  }
+}
